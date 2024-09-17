@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Details Form</title>
+    <link rel="stylesheet" href="bank.css">
+</head>
+<body>
+  <header>
+    <div class="menu-bar">
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+    </div>
+</header>
+<h1>FARMER'S FRIEND</h1> 
+    <div class="container">
+      
+        <h2>Bank Details</h2>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="ifsc">IFSC Code <span>*</span></label>
+                <input type="text" id="ifsc" name="ifsc" required>
+            </div>
+            <div class="form-group">
+                <label for="account-holder">Account Holder Name as per Bank A/C <span>*</span></label>
+                <input type="text" id="account-holder" name="account-holder" required>
+            </div>
+            <div class="form-group">
+                <label for="bank-name">Bank Name <span>*</span></label>
+                <input type="text" id="bank-name" name="bank-name" required>
+            </div>
+            <div class="form-group">
+                <label for="account-no">Bank Account No. <span>*</span></label>
+                <input type="text" id="account-no" name="account-no" required>
+            </div>
+            <div class="form-group">
+                <label for="confirm-account-no">Confirm Account No. <span>*</span></label>
+                <input type="text" id="confirm-account-no" name="confirm-account-no" required>
+            </div>
+            <div class="form-group">
+                <label for="branch-name">Branch Name <span>*</span></label>
+                <input type="text" id="branch-name" name="branch-name" required>
+            </div>
+            <div class="form-group">
+                <label for="branch-address">Branch Address <span>*</span></label>
+                <input type="text" id="branch-address" name="branch-address" required>
+            </div>
+<div style="display: block;">
+            <div class="form-group">
+                <label>Upload Copy Of Passbook/Cancelled Check in Support:</label>
+                <input type="file" name="passbook-upload" id="passbook-upload">
+                <img src="placeholder.jpg" alt="Passbook Image" class="upload-preview">
+            </div>
+
+            <div class="form-group">
+                <label>Upload One Scan Copy Of ID Proof:</label>
+                <input type="file" name="id-proof-upload" id="id-proof-upload">
+                <img src="placeholder.jpg" alt="Your Image" class="upload-preview">
+            </div>
+</div>
+            <div class="form-group">
+                <label for="captcha">Captcha letters are case sensitive <span>*</span></label>
+                <input type="text" id="captcha" name="captcha" required>
+                <img src="captcha.jpg" alt="Captcha">
+            </div>
+
+            <div class="form-group" style="display: block;">
+                <label>Registration Acknowledgement:</label>
+                <input type="checkbox" id="sms" name="acknowledgement" value="sms" checked> Get SMS
+                <input type="checkbox" id="email" name="acknowledgement" value="email" checked> Get Email
+            </div>
+
+            <button type="submit" class="submit-btn">Submit</button>
+            <button type="reset" class="cancel-btn">Cancel</button>
+        </form>
+    </div>
+
+</body>
+</html>
