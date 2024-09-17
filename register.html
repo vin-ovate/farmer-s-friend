@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>register form</title>
+  <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    
+    <header>
+        <div class="menu-bar">
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+        </div>
+    </header>
+    <h1>FARMER'S FRIEND</h1> 
+
+<div class="registration-form" id="registrationForm">
+  <h2>Registration Form</h2>
+  <form>
+      <div class="form-group">
+          <label for="regType">Registration Type *:</label>
+          <select id="regType">
+              <option value="">-Select-</option>
+              <option value="farmer">Farmer</option>
+              <option value="merchant">Merchant</option>
+          </select>
+      </div>
+
+      <br>
+
+      <div class="form-group">
+          <label>Registration Level *:</label>
+          <input type="radio" name="regLevel" value="state"> State
+          <input type="radio" name="regLevel" value="mandi"> Mandi
+      </div>
+
+      <br>
+
+      <div class="form-group">
+          <label for="regState">Registered with State *:</label>
+          <select id="regState">
+              <option value="">-Select-</option>
+              <option value="state1">State 1</option>
+              <option value="state2">State 2</option>
+          </select>
+      </div>
+
+      <div class="form-group">
+          <label for="regMandi">Registered with Mandi *:</label>
+          <select id="regMandi">
+              <option value="">-Select-</option>
+              <option value="mandi1">Mandi 1</option>
+              <option value="mandi2">Mandi 2</option>
+          </select>
+      </div>
+
+      <br>
+
+      <button type="submit">Submit</button>
+  </form>
+</div>
+</body>
+</html>
