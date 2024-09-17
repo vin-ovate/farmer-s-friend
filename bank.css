@@ -143,3 +143,150 @@ img[alt="Captcha"] {
   margin-left: 10px;
   vertical-align: middle;
 }
+=======
+/* Reset some default styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 40px;
+  margin-top: 45px;
+  color: white;
+}
+
+body, html {
+  font-family: Arial, sans-serif;
+  height: 100%;
+  margin: 0;
+  
+}
+body{
+  background-image: url('rice_field.jpg'); /* Add your background image here */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 100vh;
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+header {
+  /* position: absolute; */
+  top: 0;
+  width: 100%;
+  padding: 15px;
+  background-color: #2f4f2f; /* Dark green */
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+ .menu-bar a {
+  color: white;
+  text-decoration: none;
+  padding: 0 20px;
+} /*
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+/* body {
+  font-family: Arial, sans-serif;
+  background-color: #e8f5e9;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+} */
+
+.container {
+  max-width: 95%;
+
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f486;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin-top: 10px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #4CAF50;
+}
+h1 {
+  font-size: 40px;
+  margin-top:30px;
+  color: white;
+}
+
+/* form {
+  /* display: flex; */
+  /* flex-direction: column; */
+
+
+.form-group {
+  margin-bottom: 15px;
+  display:inline-block;
+  /* flex-wrap: wrap; */
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+}
+
+input[type="text"], input[type="file"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+button.submit-btn, button.cancel-btn {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+  
+  
+}
+
+button.cancel-btn {
+  background-color: #f44336;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+span {
+  color: red;
+}
+
+img.upload-preview {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+}
+
+img[alt="Captcha"] {
+  margin-left: 10px;
+  vertical-align: middle;
+}
+>>>>>>> e889a75f6612eaa648d2fa846eccacf909d6fa09
